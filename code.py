@@ -6,8 +6,7 @@ from PIL import Image, ImageEnhance
 img = cv2.imread("img6.jpg", 1)
 
 #Maximum size of the output file
-maxsize = 10
-
+maxsize = 100
 
 def getSize(filename):
     st = os.stat(filename)
